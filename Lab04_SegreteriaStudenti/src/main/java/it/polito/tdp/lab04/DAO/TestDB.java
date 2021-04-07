@@ -8,9 +8,12 @@ public class TestDB {
 		 * 	This is a main to check the DB connection
 		 */
 		
-		CorsoDAO cdao = new CorsoDAO();
-		cdao.getTuttiICorsi();
-		
+		//CorsoDAO cdao = new CorsoDAO();
+		//cdao.getTuttiICorsi();
+		StudenteDAO sdao = new StudenteDAO();
+		//sdao.getTuttiStudenti();
+		//cdao.getStudentiIscrittiAlCorso("Sistemi informativi aziendali");
+		//sdao.getCorsiStudente("146101");
 		
 	}
 
